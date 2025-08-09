@@ -1,1 +1,13 @@
-spring.application.name=hibernate-jpa-01
+spring:
+  application:
+    name: hibernate-jpa-01
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hibernate_jpa_01_db
+    username: postgres
+    password: 151003
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
